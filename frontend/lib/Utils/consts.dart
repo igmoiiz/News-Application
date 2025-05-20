@@ -1,0 +1,3 @@
+const url = "https://xsofzveyyrcujzutmkgs.supabase.co";
+const anonKey =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhzb2Z6dmV5eXJjdWp6dXRta2dzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc3MTQyODksImV4cCI6MjA2MzI5MDI4OX0.2U_GVx0ruPfbvHEYCSO2j9WnbJXzYxMKICmHmHjsDB4";
