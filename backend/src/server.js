@@ -36,11 +36,20 @@ mongoose
     //    Post route for News
     app.post("/api/news/post", async (req, res) => {
       try {
-        const { title, description, imageUrl, createdAt } = req.body;
+        const {
+          title,
+          description,
+          imageUrl,
+          postedByEmail,
+          postedByName,
+          createdAt,
+        } = req.body;
         const newArticle = new News({
           title,
           description,
           imageUrl,
+          postedByEmail,
+          postedByName,
           createdAt,
         });
         newArticle.save();

@@ -13,6 +13,14 @@ const News = mongoose.Schema({
     type: String,
     required: true,
   },
+  postedByEmail: {
+    type: String,
+    required: true,
+  },
+  postedByName: {
+    type: String,
+    required: true,
+  },
   createdAt: {
     type: Date,
     default: new Date(),

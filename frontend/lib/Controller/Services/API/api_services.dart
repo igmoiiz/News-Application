@@ -52,6 +52,8 @@ class ApiServices extends ChangeNotifier {
       final newArticle = NewsModel(
         title: title,
         description: description,
+        postedByEmail: _supabase.auth.currentUser?.email,
+        postedByName: _supabase.auth.currentUser?.userMetadata!['name'],
         imageUrl: await postDataToSupabaseAndGetUrl(),
         createdAt: DateTime.now(),
       );
